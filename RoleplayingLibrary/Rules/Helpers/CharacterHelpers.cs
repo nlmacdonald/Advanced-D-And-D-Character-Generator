@@ -30,30 +30,44 @@ namespace RoleplayingLibrary.Rules.Helpers
 
         public static void Open()
         {
-            var fileDialog = new OpenFileDialog
+            using (var fileDialog = new OpenFileDialog
             {
                 Filter = Filter,
                 DefaultExt = Extension
-            };
-
-            if (fileDialog.ShowDialog() == DialogResult.OK)
+            })
             {
+                if (fileDialog.ShowDialog() != DialogResult.OK)
+                {
+                    return;
+                }
+
                 var file = fileDialog.FileName;
-                var text = File.ReadAllText(file);
 
                 try
                 {
+                    var text = File.ReadAllText(file);
                     var savedCharacter = JsonConvert.DeserializeObject<Character>(text);
+
+                    if (savedCharacter == null)
+                    {
+                        ShowOpenError(file, "The selected file did not contain a character.");
+                        return;
+                    }
+
                     _instance = savedCharacter;
                 }
-                catch (Exception e)
+                catch (IOException)
                 {
-                    Console.WriteLine(e);
-                    throw;
+                    ShowOpenError(file, "The selected file could not be read.");
                 }
-
-                if (_instance == null) return;
-
+                catch (UnauthorizedAccessException)
+                {
+                    ShowOpenError(file, "The selected file could not be opened because access was denied.");
+                }
+                catch (JsonException)
+                {
+                    ShowOpenError(file, "The selected file is not a valid AD&D character file.");
+                }
             }
         }
 
@@ -78,6 +92,15 @@ namespace RoleplayingLibrary.Rules.Helpers
 
                 File.WriteAllText(path: file, contents: text);
             }
+        }
+
+        private static void ShowOpenError(string file, string message)
+        {
+            MessageBox.Show(
+                $"{message}{Environment.NewLine}{Environment.NewLine}{file}",
+                "Open Character",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Error);
         }
     }
 }
