@@ -66,6 +66,8 @@ namespace ADandD1ECharacterGenerator.Forms
 
         public void InitializeFor(Character character)
         {
+            ClearCharacterState();
+
             StrengthTextBox.Text = $@"{character.Strength}";
             DexterityTextBox.Text = $@"{character.Dexterity}";
             ConstitutionTextBox.Text = $@"{character.Constitution}";
@@ -107,6 +109,21 @@ namespace ADandD1ECharacterGenerator.Forms
             PortraitPictureBox.BackgroundImage = JsonImage.ToImage(character.Portrait);
 
             StatsRichTextBox.Text = StatBlockTextBox.Text;
+        }
+
+        private void ClearCharacterState()
+        {
+            ClassesListBox.Items.Clear();
+            LanguageListBox.Items.Clear();
+            NonWeaponListBox.Items.Clear();
+            WeaponProficiencyListBox.Items.Clear();
+            GearListBox.Items.Clear();
+            WeaponListBox.Items.Clear();
+            ArmourListBox.Items.Clear();
+            MagicListBox.Items.Clear();
+            SpellsListBox.Items.Clear();
+
+            PortraitPictureBox.BackgroundImage = null;
         }
 
         private List<CharacterClass> GetCharacterClasses()
