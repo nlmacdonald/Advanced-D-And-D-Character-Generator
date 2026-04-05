@@ -1,0 +1,7054 @@
+[
+  {
+    "Id": "weapon_arrow_normal",
+    "Name": "Arrow, normal",
+    "Description": "A single arrow.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Ammo",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              },
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Thrown"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "2"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": ".2"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Silver"
+              },
+              {
+                "Group": "Cost",
+                "Value": "2"
+              }
+            ]
+          }
+        ],
+        "Conditions": [
+        ]
+      }
+    ],
+    "Bootstraps": [
+    ],
+    "Rules": [
+    ],
+    "Scripts": [
+    ],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_axe_battle",
+    "Name": "Axe, battle",
+    "Description": "A battle axe.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Axe",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d8"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d8"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "75"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "6"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "5"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_axe_hand_throwing",
+    "Name": "Axe, hand or throwing",
+    "Description": "A small axe usable in melee or as a thrown weapon.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Axe",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              },
+              {
+                "Group": "CombatType",
+                "Value": "Thrown"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "50"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "2"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "1"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_bardiche",
+    "Name": "Bardiche",
+    "Description": "A large polearm with a heavy cleaving blade.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Polearm",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Dice",
+                "Value": "3"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "125"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "12"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "7"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_bec_de_corbin",
+    "Name": "Bec de corbin",
+    "Description": "A polearm with a hammering and piercing head.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Polearm",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d8"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "100"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "6"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "10"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_bill_guisarme",
+    "Name": "Bill-Guisarme",
+    "Description": "A polearm combining the hooking blade of a bill with the thrusting spike of a guisarme.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Polearm",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d10"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "150"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "15"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "6"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_bo_stick",
+    "Name": "Bo Stick",
+    "Description": "A long fighting staff used as a two-handed melee weapon.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Staff",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d3"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "15"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "2"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "0"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_club",
+    "Name": "Club",
+    "Description": "A simple bludgeoning weapon of wood, usable in melee or thrown.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Club",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d3"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              },
+              {
+                "Group": "CombatType",
+                "Value": "Thrown"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "One"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "30"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "3"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "0"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_dagger",
+    "Name": "Dagger",
+    "Description": "A small bladed weapon usable in melee or thrown.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Dagger",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d3"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              },
+              {
+                "Group": "CombatType",
+                "Value": "Thrown"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "10"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "1"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "2"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_dart",
+    "Name": "Dart",
+    "Description": "A small thrown missile weapon.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Thrown",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d3"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d2"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Thrown"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "5"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": ".5"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Silver"
+              },
+              {
+                "Group": "Cost",
+                "Value": "5"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_fauchard",
+    "Name": "Fauchard",
+    "Description": "A polearm with a curved blade mounted on a long shaft, used for slashing attacks.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Polearm",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d8"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              },
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "60"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "6"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "3"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_fauchard_fork",
+    "Name": "Fauchard-Fork",
+    "Description": "A polearm combining the curved blade of a fauchard with a forked head used for catching or controlling opponents.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Polearm",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d8"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d10"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              },
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "80"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "8"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "8"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_flail_footmans",
+    "Name": "Flail, footman's",
+    "Description": "A heavy chained striking weapon used on foot.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Flail",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "DamageModifier",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "One"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              },
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "150"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "15"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "3"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_flail_horsemans",
+    "Name": "Flail, horseman's",
+    "Description": "A lighter flail designed for mounted use.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Flail",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Modifier",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Modifier",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              },
+              {
+                "Group": "CombatType",
+                "Value": "Mounted"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "One"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              },
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "35"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "4"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "8"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_fork_military",
+    "Name": "Fork, military",
+    "Description": "A heavy polearm with two stout prongs used for thrusting and controlling opponents.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Polearm",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d8"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              },
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "75"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "8"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "4"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_glaive",
+    "Name": "Glaive",
+    "Description": "A polearm with a long single-edged blade mounted on a shaft.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Polearm",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d10"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              },
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "75"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "8"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "6"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_glaive_guisarme",
+    "Name": "Glaive-Guisarme",
+    "Description": "A polearm combining the cutting blade of a glaive with the hooking features of a guisarme.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Polearm",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              },
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "100"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "10"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "10"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_guisarme",
+    "Name": "Guisarme",
+    "Description": "A polearm with a hooked blade used to slash and catch opponents.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Polearm",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d8"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              },
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "80"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "8"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "5"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_guisarme_voulge",
+    "Name": "Guisarme-Voulge",
+    "Description": "A heavy polearm combining the hooked features of a guisarme with the chopping power of a voulge.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Polearm",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              },
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "150"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "15"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "7"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_halberd",
+    "Name": "Halberd",
+    "Description": "A heavy polearm combining axe blade, spike, and hook.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Polearm",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d10"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              },
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "175"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "18"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "9"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_hammer_lucern",
+    "Name": "Hammer, lucern",
+    "Description": "A polearm with a hammering head and piercing spike, designed to strike armored foes.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Polearm",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              },
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "150"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "15"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "7"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_hammer",
+    "Name": "Hammer",
+    "Description": "A small war hammer.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Hammer",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "DamageModifier",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              },
+              {
+                "Group": "CombatType",
+                "Value": "Thrown"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "50"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "2"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "1"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_javelin",
+    "Name": "Javelin",
+    "Description": "A light throwing spear.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Spear",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Thrown"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "20"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "2"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Silver"
+              },
+              {
+                "Group": "Cost",
+                "Value": "10"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_jo_stick",
+    "Name": "Jo Stick",
+    "Description": "A short staff weapon used as a two-handed melee weapon.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Staff",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "40"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "4"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "0"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_lance_light_horse",
+    "Name": "Lance, light horse",
+    "Description": "A light lance intended for mounted combat.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Lance",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d8"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              },
+              {
+                "Group": "CombatType",
+                "Value": "Mounted"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "One"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              },
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "50"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "5"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "6"
+              }
+            ]
+          }
+        ],
+        "Conditions": [
+          {
+            "Tags": [
+              {
+                "Group": "Usage",
+                "Value": "MountedOnly"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_lance_medium_horse",
+    "Name": "Lance, medium horse",
+    "Description": "A medium lance intended for mounted combat.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Lance",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "DamageModifier",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              },
+              {
+                "Group": "CombatType",
+                "Value": "Mounted"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "One"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              },
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "100"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "10"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "6"
+              }
+            ]
+          }
+        ],
+        "Conditions": [
+          {
+            "Tags": [
+              {
+                "Group": "Usage",
+                "Value": "MountedOnly"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_lance_heavy_horse",
+    "Name": "Lance, heavy horse",
+    "Description": "A heavy lance intended for mounted combat.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Lance",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "DamageModifier",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "3"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              },
+              {
+                "Group": "CombatType",
+                "Value": "Mounted"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "One"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              },
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "150"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "15"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "6"
+              }
+            ]
+          }
+        ],
+        "Conditions": [
+          {
+            "Tags": [
+              {
+                "Group": "Usage",
+                "Value": "MountedOnly"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_mace_footman",
+    "Name": "Mace, footman's",
+    "Description": "A footman's mace.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Mace",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "DamageModifier",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "100"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "8"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "8"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_mace_horseman",
+    "Name": "Mace, horseman's",
+    "Description": "A horseman's mace.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Mace",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "50"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "4"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "4"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_morning_star",
+    "Name": "Morning Star",
+    "Description": "A spiked bludgeoning weapon.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Mace",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "DamageModifier",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "125"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "6"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "5"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_partisan",
+    "Name": "Partisan",
+    "Description": "A polearm with a broad spear-like head used for thrusting and cutting.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Polearm",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Modifier",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              },
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "80"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "8"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "10"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_pick_military_footman",
+    "Name": "Pick, Military, footman's",
+    "Description": "A military pick for foot combat.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Pick",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "DamageModifier",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "60"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "6"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "8"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_pick_military_horseman",
+    "Name": "Pick, Military, horseman's",
+    "Description": "A military pick for mounted combat.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Pick",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "DamageModifier",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              },
+              {
+                "Group": "CombatType",
+                "Value": "Mounted"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "40"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "3"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "5"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_awl_pike",
+    "Name": "Pike, Awl",
+    "Description": "A polearm with a long narrow spike designed for armor penetration.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Polearm",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d12"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "80"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "8"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "3"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_quarrel_light",
+    "Name": "Quarrel, light",
+    "Description": "A light crossbow bolt.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Ammo",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Ranged"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "1"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": ".1"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Silver"
+              },
+              {
+                "Group": "Cost",
+                "Value": "1"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_quarrel_heavy",
+    "Name": "Quarrel, heavy",
+    "Description": "A heavy crossbow bolt.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Ammo",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "DamageModifier",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "DamageModifier",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Ranged"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "2"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": ".2"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Silver"
+              },
+              {
+                "Group": "Cost",
+                "Value": "1"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_ranseur",
+    "Name": "Ranseur",
+    "Description": "A polearm with a spear point and two curved lateral prongs used for catching and disarming.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Polearm",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "50"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "5"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "4"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_scimitar",
+    "Name": "Scimitar",
+    "Description": "A curved slashing sword.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Sword",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d8"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d8"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "40"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "4"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "15"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_sling_bullet",
+    "Name": "Sling bullet",
+    "Description": "A lead bullet used as ammunition for a sling.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Ammo",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Modifier",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Modifier",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Ranged"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "2"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": ".2"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Silver"
+              },
+              {
+                "Group": "Cost",
+                "Value": "1"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_sling_stone",
+    "Name": "Sling stone",
+    "Description": "A stone used as ammunition for a sling.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Ammo",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Ranged"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Stone"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "1"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": ".1"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "0"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_spear",
+    "Name": "Spear",
+    "Description": "A spear usable in melee or thrown.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Spear",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d8"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              },
+              {
+                "Group": "CombatType",
+                "Value": "Thrown"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "50"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "6"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "1"
+              }
+            ]
+          }
+        ],
+        "Conditions": [
+          {
+            "Tags": [
+              {
+                "Group": "SetVsCharge",
+                "Value": "True"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_spetum",
+    "Name": "Spetum",
+    "Description": "A polearm with a broad thrusting head and lateral projections.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Polearm",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Modifier",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              },
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "50"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "5"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "3"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_staff_quarter",
+    "Name": "Staff, quarter",
+    "Description": "A wooden quarterstaff used as a two-handed bludgeoning weapon.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Staff",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Bludgeoning"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "50"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "5"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "0"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_sword_bastard",
+    "Name": "Sword, bastard, & scabbard",
+    "Description": "A bastard sword with scabbard.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Sword",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d8"
+              },
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "100"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "6"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "25"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_sword_broad",
+    "Name": "Sword, broad",
+    "Description": "A broad-bladed one-handed sword.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Sword",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Modifier",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "One"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              },
+              {
+                "Group": "Material",
+                "Value": "Leather"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "75"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "8"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "10"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_sword_long",
+    "Name": "Sword, long & scabbard",
+    "Description": "A long sword with scabbard.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Sword",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d8"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d12"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "60"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "4"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "15"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_sword_short",
+    "Name": "Sword, short & scabbard",
+    "Description": "A short sword with scabbard.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Sword",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d8"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "35"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "2"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "8"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_sword_two_handed",
+    "Name": "Sword, two-handed",
+    "Description": "A two-handed sword.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Sword",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d10"
+              },
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Dice",
+                "Value": "3"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              },
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "250"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "8"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "30"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_trident",
+    "Name": "Trident",
+    "Description": "A three-pronged spear-like weapon used for thrusting and throwing.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Spear",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "1"
+              },
+              {
+                "Group": "Die",
+                "Value": "d6"
+              },
+              {
+                "Group": "Modifier",
+                "Value": "1"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "3"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Piercing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              },
+              {
+                "Group": "CombatType",
+                "Value": "Thrown"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "One"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              },
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "50"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "5"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "4"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  },
+  {
+    "Id": "weapon_voulge",
+    "Name": "Voulge",
+    "Description": "A heavy chopping polearm with a cleaver-like blade.",
+    "ComponentSet": "Weapon",
+    "Tags": [
+      {
+        "Group": "Weapon",
+        "SubGroup": "Polearm",
+        "Effects": [
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Small"
+              },
+              {
+                "Group": "Target",
+                "Value": "Medium"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Dice",
+                "Value": "2"
+              },
+              {
+                "Group": "Die",
+                "Value": "d4"
+              },
+              {
+                "Group": "Damage",
+                "Value": "Slashing"
+              },
+              {
+                "Group": "Target",
+                "Value": "Large"
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "Tags": [
+              {
+                "Group": "CombatType",
+                "Value": "Melee"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Hands",
+                "Value": "Two"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Material",
+                "Value": "Wood"
+              },
+              {
+                "Group": "Material",
+                "Value": "Metal"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Coins"
+              },
+              {
+                "Group": "Weight",
+                "Value": "125"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Weight"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Pounds"
+              },
+              {
+                "Group": "Weight",
+                "Value": "13"
+              }
+            ]
+          },
+          {
+            "Tags": [
+              {
+                "Group": "Category",
+                "Value": "Cost"
+              },
+              {
+                "Group": "Unit",
+                "Value": "Gold"
+              },
+              {
+                "Group": "Cost",
+                "Value": "2"
+              }
+            ]
+          }
+        ],
+        "Conditions": []
+      }
+    ],
+    "Bootstraps": [],
+    "Rules": [],
+    "Scripts": [],
+    "SourceIds": [
+      {
+        "Id": "source_players_handbook_1e",
+        "Pages": [ 35, 36 ]
+      }
+    ]
+  }
+]
